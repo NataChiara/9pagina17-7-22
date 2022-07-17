@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(111, 199, 111);
+    color: rgb(4, 90, 4);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.header img {
+    height: 80%;
+    margin-left: 15px;
+}
+
+.header h2 {
+    margin-left: 25px;
+}
+
+.header nav {
+    margin-left: auto;
+
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+
+    
+}
+
+.header li {
+    
+    margin: 15px;
+    padding: 10px;
+    border: solid rgb(4, 90, 4) 2.5px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: rgb(4, 90, 4);
+
+}
+
+.header li a:hover {
+    color: black;
+    font-weight: bold;
+}
