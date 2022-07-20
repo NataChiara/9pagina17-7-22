@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
-.body {
+.main-light {
     height: 85vh;
     background-color: rgb(240, 240, 161);
+    color: rgb(2, 44, 2);
+}
+
+.main-dark {
+    height: 85vh;
+    color: rgb(240, 240, 161);
+    background-color: rgb(2, 44, 2);
 }

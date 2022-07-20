@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './routes/App';
 import reportWebVitals from './reportWebVitals';
+import ThemeContext from './components/Context/ThemeContext';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeContext.Provider value="main-dark">
+      <App />
+    </ThemeContext.Provider>
   </React.StrictMode>
 );
 
